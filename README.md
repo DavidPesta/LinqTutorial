@@ -1,3 +1,9 @@
+To make this work for .NET 6 in VSCode on Ubuntu:
+- All .csproj files were changed from net5.0 to net6.0.
+- Inside of ExerciseTests folder, run this command line: dotnet add package NUnit --version 3.13.2
+- Close and re-open VSCode. Wait several seconds. Then click Restore.
+- Navigate inside of a test file, then right click a [Test] or a [TestFixture] and choose Run Tests in Context.
+
 # LinqTutorial
 
 Hello! 
